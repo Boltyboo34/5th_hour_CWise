@@ -105,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725474007577</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="playground added">
+      <option name="closed" value="true" />
+      <created>1725559641456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725559641456</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
