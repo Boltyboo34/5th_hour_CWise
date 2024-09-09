@@ -2,8 +2,7 @@
 #Class: 5th hour
 #Assignment: Playground
 
-print("enter the password:")
-(input())
+input("enter the password:")
 
 print ("Hello Mr Mack")
 
