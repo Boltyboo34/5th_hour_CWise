@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adc400e4-c09b-42bf-9896-b21f62bfd89e" name="Changes" comment=" Scenario 1 added" />
+    <list default="true" id="adc400e4-c09b-42bf-9896-b21f62bfd89e" name="Changes" comment=" Scenario 1 update added">
+      <change afterPath="$PROJECT_DIR$/Scenario 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenario 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenario 1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +56,7 @@
     "Python.Hello World.executor": "Run",
     "Python.Playground.executor": "Run",
     "Python.Scenario 1.executor": "Run",
+    "Python.Scenario 2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -161,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726597103049</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=" Scenario 1 update added">
+      <option name="closed" value="true" />
+      <created>1726681725093</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726681725093</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +196,7 @@
     <MESSAGE value="playground added&#10;changes made to playground" />
     <MESSAGE value="HW4 added" />
     <MESSAGE value=" Scenario 1 added" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Scenario 1 added" />
+    <MESSAGE value=" Scenario 1 update added" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Scenario 1 update added" />
   </component>
 </project>

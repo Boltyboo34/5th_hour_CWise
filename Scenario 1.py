@@ -38,7 +38,7 @@ enemyDict = {
 "Skeleton": {
    "Attack": 40,
    "Defense": 40,
-   "Speed": "40",
+   "Speed": 40,
 }
 }
 
