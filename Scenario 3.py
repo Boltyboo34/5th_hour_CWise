@@ -75,11 +75,13 @@ print ("Hello World!")
 #Combat Code Goes Here
 
 import random
-import math
-rolld6 = random.randint(1,6)
-rolld10 = random.randint(1,10)
-rolld20 = random.randint(1,20)
-partyDictionary = {
+
+# - Lae'Zel uses a greatsword: 2d6 + 3
+# - Shadowheart uses a mace: 1d6 + 2
+# - Gale uses the firebolt spell: 1d10
+# - Astarion uses a shortbow: 1d6 + 4
+
+partyDict = {
     "LaeZel" : {
         "Race" : "Githyanki",
         "Class" : "Fighter",
@@ -87,7 +89,7 @@ partyDictionary = {
         "Health" : 12,
         "AC" : 17,
         "Attack Modifier" : 10,
-        "Damage Roll": rolld6 + rolld6,
+        "Damage Roll": random.randint(1,6) + random.randint(1,6)+3,
     },
     "Shadowheart" : {
         "Race" : "Half-Elf",
@@ -96,7 +98,7 @@ partyDictionary = {
         "Health" : 10,
         "AC" : 14,
         "Attack Modifier" : 5,
-        "Damage Roll": rolld6 + rolld6,
+        "Damage Roll": random.randint(1,6)+2,
     },
     "Gale" : {
         "Race" : "Human",
@@ -104,8 +106,8 @@ partyDictionary = {
         "Background" : "Sage",
         "Health" : 8,
         "AC" : 14,
-        "Attack Modifier" : 17,
-        "Damage Roll": rolld6 + rolld6,
+        "Attack Modifier" : 6,
+        "Damage Roll": random.randint(1,10)
     },
     "Astarion" : {
         "Race" : "High Elf",
@@ -114,42 +116,61 @@ partyDictionary = {
         "Health" : 10,
         "AC" : 14,
         "Attack Modifier" : 12,
-        "Damage Roll": rolld6 + rolld6,
+        "Damage Roll": random.randint(1,6) + 4,
     }
 }
 
 enemyDict = {
 "Slime" : {
    "Attack Modifier" : 30,
-   "Health" : 30,
-    "Damage Roll": rolld6 + rolld6,
+   "Health" : 5,
+    "Damage Roll": random.randint(1,6) + random.randint(1,6),
     "AC" : 11,
 },
 "Kitsune" : {
    "Attack Modifier" : 50,
    "Health" : 30,
-    "Damage Roll": rolld6 + rolld6,
+    "Damage Roll": random.randint(1,6) + random.randint(1,6),
     "AC" : 13,
 },
 "Cursed Armor": {
    "Attack Modifier": 60,
    "Health": 70,
-    "Damage Roll": rolld6 + rolld6,
+    "Damage Roll": random.randint(1,6) + random.randint(1,6),
     "AC" : 17,
 },
 "Mimic": {
    "Attack Modifier": 50,
    "Health": 50,
-    "Damage Roll": rolld6 + rolld6,
+    "Damage Roll": random.randint(1,6) + random.randint(1,6),
     "AC" : 17,
 },
 "Skeleton": {
    "Attack Modifier": 40,
    "Health": 40,
-    "Damage Roll": rolld6 + rolld6,
+    "Damage Roll": random.randint(1,6) + random.randint(1,6),
     "AC" : 17,
 }
 }
 
-if  rolld20 + partyDictionary["Gale"] ["Attack Modifier"] >= enemyDict["Slime"] ["AC"]:
-    enemyDict["Slime"] ["Health"] - partyDictionary["Gale"] ["Damage Roll"]
+if  random.randint(1,20) + partyDict["Gale"] ["Attack Modifier"] >= enemyDict["Slime"] ["AC"]:
+    enemyDict["Slime"] ["Health"] -= partyDict["Gale"] ["Damage Roll"]
+    print("Gale's attack hit")
+    if enemyDict["Slime"]["Health"] <= 0:
+        print("the slime is dead")
+        exit()
+    else:
+        print("the slime is alive")
+else:
+    print("Gale's attack missed")
+
+if  random.randint(1,20) + enemyDict["Slime"] ["Attack Modifier"] >= partyDict["Gale"] ["AC"]:
+    partyDict["Gale"] ["Health"] -= enemyDict["Slime"] ["Damage Roll"]
+    print("Slime's attack hit")
+    if partyDict["Gale"]["Health"] <= 0:
+        print("Gale is dead")
+        exit()
+    else:
+        print("Gale is alive")
+else:
+    print("The slime's attack missed")
