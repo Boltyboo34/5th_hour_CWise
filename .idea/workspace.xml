@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adc400e4-c09b-42bf-9896-b21f62bfd89e" name="Changes" comment=" Scenario 3 added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenario 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenario 3.py" afterDir="false" />
-    </list>
+    <list default="true" id="adc400e4-c09b-42bf-9896-b21f62bfd89e" name="Changes" comment=" Scenario 3 added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729016250249</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary=" Scenario 3 added">
+      <option name="closed" value="true" />
+      <created>1729021526994</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1729021526994</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
