@@ -27,9 +27,9 @@ while b < 30:
 #inputs the number 0.
 y = 1
 while y >= 1:
-    print("are we there yet")
+    print("type 0 pls")
     time.sleep(0.8)
     y += 1
-    z = input()
-    if z == "yes":
+    z = int(input())
+    if z == 0:
      break

@@ -21,3 +21,14 @@ stupidmathList = [6, 2, 1,]
 stupidmathList2 = [12, 22, 126]
 sum = stupidmathList[1]+ stupidmathList2[2]
 print (sum)
+
+
+import time
+y = 1
+while y >= 1:
+    print("are we there yet")
+    time.sleep(0.8)
+    y += 1
+    z = input()
+    if z == "yes":
+     break
