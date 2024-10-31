@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adc400e4-c09b-42bf-9896-b21f62bfd89e" name="Changes" comment="HW10 added">
+    <list default="true" id="adc400e4-c09b-42bf-9896-b21f62bfd89e" name="Changes" comment="playground changes, HW9 changes, and HW10 added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW10.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW9.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW9.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW11.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW11.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.HW10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW11.executor&quot;: &quot;Run&quot;,
     &quot;Python.HW2.executor&quot;: &quot;Run&quot;,
     &quot;Python.HW3.executor&quot;: &quot;Run&quot;,
     &quot;Python.HW4.executor&quot;: &quot;Run&quot;,
@@ -321,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730225973982</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="playground changes, HW9 changes, and HW10 added">
+      <option name="closed" value="true" />
+      <created>1730311885825</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1730311885825</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,6 +359,7 @@
     <MESSAGE value="HW8 added" />
     <MESSAGE value="HW9 added" />
     <MESSAGE value="HW10 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW10 added" />
+    <MESSAGE value="playground changes, HW9 changes, and HW10 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="playground changes, HW9 changes, and HW10 added" />
   </component>
 </project>
