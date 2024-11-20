@@ -5,7 +5,7 @@
 import math
 from math import factorial
 #1. Create a variable that asks the user for an integer and an empty intger variable.
-aaaaaaahhhhh = int(input("gib a numba"))
+aaaaaaahhhhh = int(input("gib a numba "))
 emptInt = ()
 #2. Create a loop with a range from 1 to the number the user input.
 for i in range(1,aaaaaaahhhhh):
